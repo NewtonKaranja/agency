@@ -1068,6 +1068,39 @@ section,
   top: calc(50% - 47px);
 }
 
+
+/* Mobile adjustments for About section text */
+@media (max-width: 575.98px) {   /* Phones – Bootstrap xs/sm breakpoint, very common for mobile tweaks */
+
+  .about .content h3 {
+    font-size: 1.4rem;          /* ≈22–23px – good balance: smaller than 1.75rem but still stands out */
+    /* Optional: tighter spacing if text wraps awkwardly */
+    line-height: 1.3;
+    margin-bottom: 1rem;
+  }
+
+  /* Body paragraphs – ensure readable (don't go below 1rem/16px) */
+  .about .content p {
+    font-size: 1.0625rem;       /* ≈17px – slightly larger than default for mobile readability */
+    line-height: 1.6;           /* More breathing room on small screens */
+  }
+
+  /* Italic paragraph (if it's prominent) */
+  .about .content p.fst-italic {
+    font-size: 1.05rem;         /* ≈16.8px – close to body */
+  }
+
+  /* List items & check icons – match paragraph size */
+  .about .content ul li {
+    font-size: 1.05rem;         /* ≈16.8px */
+  }
+
+  .about .content ul i {
+    font-size: 1.1rem;          /* Slightly smaller icons to fit better */
+  }
+
+
+
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
