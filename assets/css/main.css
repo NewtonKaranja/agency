@@ -1087,18 +1087,18 @@ section,
 
   /* Italic paragraph (if it's prominent) */
   .about .content p.fst-italic {
-    font-size: 1.05rem;         /* ≈16.8px – close to body */
+    font-size: 15px;         /* ≈16.8px – close to body */
   }
 
   /* List items & check icons – match paragraph size */
   .about .content ul li {
-    font-size: 1.05rem;         /* ≈16.8px */
+    font-size: 15px;         /* ≈16.8px */
   }
 
   .about .content ul i {
     font-size: 1.1rem;          /* Slightly smaller icons to fit better */
   }
-
+}
 
 
 /*--------------------------------------------------------------
