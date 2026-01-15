@@ -1078,7 +1078,11 @@ section,
     line-height: 1.3;
     margin-bottom: 1rem;
   }
-
+.about .section-title p {
+    font-size: 15px;      /* ≈17px – a bit larger than default 16px for better readability on phones */
+    line-height: 1.6;          /* More space between lines – reduces eye strain on long sentences */
+    margin-bottom: 1.5rem;     /* Extra breathing room below the paragraph */
+  }
   /* Body paragraphs – ensure readable (don't go below 1rem/16px) */
   .about .content p {
     font-size: 15px;       /* ≈17px – slightly larger than default for mobile readability */
