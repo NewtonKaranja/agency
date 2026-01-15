@@ -1143,7 +1143,7 @@ section,
   }
 
   .stats .stats-item p {
-    font-size: 1rem;            /* ≈16px – ensure label is clear; match body text */
+    font-size: 14px;            /* ≈16px – ensure label is clear; match body text */
     margin-top: 0.5rem;         /* Small gap from number */
     line-height: 1.4;
   }
