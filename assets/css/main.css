@@ -290,6 +290,19 @@ h6 {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 575.98px) {
+  .header .logo h1 {
+    font-size: 22px;          /* ← change this value to what looks good (18–24px common for mobile) */
+    /* Optional: make it a bit tighter */
+    line-height: 1.1;
+  }
+
+  /* Optional: make the logo image smaller too on very small screens */
+  .header .logo img {
+    max-height: 20px;         /* was 36px → smaller on mobile */
+  }
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
