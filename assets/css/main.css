@@ -1213,6 +1213,20 @@ section,
   color: var(--accent-color);
 }
 
+/* Mobile adjustments for section titles (Services, About, etc.) */
+@media (max-width: 575.98px) {  /* Phones – precise for small screens; use 767.98px for broader mobile */
+
+  
+  .section-title p {
+    font-size: 16px;       /* ≈17px – slightly above base 16px for readability */
+    line-height: 1.6;           /* More breathing room for the long sentence */
+    margin-bottom: 1.5rem;      /* Extra gap before content starts */
+  }
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
