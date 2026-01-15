@@ -1133,6 +1133,34 @@ section,
   font-weight: 600;
 }
 
+/* Mobile adjustments for Stats section counters */
+@media (max-width: 575.98px) {   /* Phones – precise for small screens; use 767.98px if you want tablets too */
+
+  .stats .stats-item span.purecounter {
+    font-size: 35px;          /* ≈40px – reduced from typical desktop 3–4rem/48–64px */
+    font-weight: 700;           /* Keep bold for emphasis */
+    line-height: 1.1;           /* Tight but readable */
+  }
+
+  .stats .stats-item p {
+    font-size: 1rem;            /* ≈16px – ensure label is clear; match body text */
+    margin-top: 0.5rem;         /* Small gap from number */
+    line-height: 1.4;
+  }
+
+  /* Optional: Reduce padding on small screens to save vertical space */
+  .stats .stats-item {
+    padding: 20px 15px;         /* Less padding than desktop */
+  }
+
+  /* If numbers still feel cramped in 2-column layout (md-6), force better spacing */
+  .stats .row > div {
+    margin-bottom: 1.5rem;
+  }
+}
+
+
+
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
