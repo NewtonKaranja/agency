@@ -957,12 +957,12 @@ section,
 
 @media (max-width: 640px) {
   .hero h1 {
-    font-size: 27px;
+    font-size: 25px;
     line-height: 36px;
   }
 
   .hero p {
-    font-size: 17px;
+    font-size: 15px;
     line-height: 24px;
     margin-bottom: 30px;
   }
